@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0ff7e19eec086b21",
+        "id": "d6d03f0897dd6fdb",
         "type": "tabs",
         "children": [
           {
-            "id": "336a826407a99c9e",
+            "id": "d625a734a1a52f21",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HyperV/Swtich.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Swtich"
-            }
-          },
-          {
-            "id": "49e8e549f11b86dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/SSH-KEYGEN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SSH-KEYGEN"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "49e8e549f11b86dd",
+  "active": "d625a734a1a52f21",
   "lastOpenFiles": [
-    "Linux/SSH-代理服务配置.md",
-    "HyperV/Swtich.md",
     "Linux/SSH-KEYGEN.md",
+    "HyperV/Swtich.md",
+    "Linux/SSH-代理服务配置.md",
     "Daily",
     "未命名.base",
     "Linux"
