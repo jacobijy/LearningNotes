@@ -30,7 +30,7 @@
   "showBranchStatusBar": true,
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
-  "gitDir": "",
+  "gitDir": "git@github.com:jacobijy/LearningNotes.git",
   "showFileMenu": true,
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
