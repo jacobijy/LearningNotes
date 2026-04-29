@@ -7,9 +7,9 @@
       "tag": "Gemini",
       "vendor": "Gemini",
       "options": {
-        "apiKey": "D:\\Code\\LearningNote",
+        "apiKey": "AIzaSyDZr_DOGp0NjR7z6NZ2vCSqclJThcsdy8U",
         "baseURL": "https://generativelanguage.googleapis.com",
-        "model": "gemini-1.5-flash",
+        "model": "gemini-2.5-pro",
         "parameters": {}
       }
     }
