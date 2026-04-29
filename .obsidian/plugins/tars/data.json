@@ -2,7 +2,18 @@
   "editorStatus": {
     "isTextInserting": false
   },
-  "providers": [],
+  "providers": [
+    {
+      "tag": "Gemini",
+      "vendor": "Gemini",
+      "options": {
+        "apiKey": "",
+        "baseURL": "https://generativelanguage.googleapis.com",
+        "model": "gemini-1.5-flash",
+        "parameters": {}
+      }
+    }
+  ],
   "systemTags": [
     "System",
     "系统"
