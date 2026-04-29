@@ -11,10 +11,14 @@
             "id": "d625a734a1a52f21",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Flatbuffer/byte-buffer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "byte-buffer"
             }
           }
         ]
@@ -152,21 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HyperV/Swtich.md",
+                "file": "Flatbuffer/byte-buffer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Swtich 的大纲"
+              "title": "byte-buffer 的大纲"
+            }
+          },
+          {
+            "id": "b71f38134f7b735b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 746.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +194,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d625a734a1a52f21",
+  "active": "b71f38134f7b735b",
   "lastOpenFiles": [
+    "Flatbuffer/flatc.md",
+    "Flatbuffer/ReadMe.md",
+    "Python/struct.md",
+    "Pmextract/message.md",
+    "Pmextract/bntx.md",
+    "Python",
+    "Pmextract",
+    "Flatbuffer/byte-buffer.md",
+    "Flatbuffer",
+    "Example/personal_array.bin",
+    "Example",
     "Linux/SSH-KEYGEN.md",
     "HyperV/Swtich.md",
     "Linux/SSH-代理服务配置.md",
