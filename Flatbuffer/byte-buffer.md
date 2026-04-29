@@ -74,7 +74,7 @@ offset >= vtable时，数据为0或者已无设定的关键字<br/>
 所以第一个关键字的数值开始于b_pos + _offset = 16 <br/>
 以此类推
 
-## 不同类型数据字节构成
+## 不同类型数据字节构成  
 ### int
 \_offset 为0时，取默认值
 不为0时 readUInt(b_pos + offset) int位数根据实际字节数
