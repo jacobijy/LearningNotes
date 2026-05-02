@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HyperV/Swtich.md",
+                "file": "Proxy/Sock5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Swtich"
+              "title": "Sock5"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HyperV/Swtich.md",
+                "file": "Proxy/Sock5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Swtich 的反向链接列表"
+              "title": "Sock5 的反向链接列表"
             }
           },
           {
@@ -193,8 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c4dceec01b11866",
+  "active": "d625a734a1a52f21",
   "lastOpenFiles": [
+    "HyperV/Swtich.md",
+    "Proxy/Sock5.md",
+    "Proxy",
     "Flatbuffer/byte-buffer.md",
     "Python/struct.md",
     "Pmextract/message.md",
@@ -208,7 +211,6 @@
     "Flatbuffer",
     "Example/personal_array.bin",
     "Example",
-    "HyperV/Swtich.md",
     "Daily",
     "未命名.base",
     "Linux"
