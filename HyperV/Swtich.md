@@ -122,13 +122,13 @@ Add-NetNatStaticMapping -NatName "MyNAT" -Protocol TCP `
 
 ## 5. 故障排查速查表
 
-| 现象 | 原因 | 解决 |
-|:---|:---|:---|
-| 创建外部交换机后宿主机断网 | 驱动未加载 / IP 冲突 | `Disable-NetAdapter "vEthernet (xxx)"` 后 `Enable` |
-| VM ping 不通宿主机 | 宿主机虚拟网卡无 IP | `ipconfig` 确认 `vEthernet` 有 `192.168.x.1` |
-| 能 ping IP 但无法上网 | NAT 规则缺失 / DNS 错误 | `Get-NetNat` 查规则；VM 内配 DNS `8.8.8.8` |
-| `Destination Host Unreachable` | ARP 解析失败 / 链路不通 | 确认 VM 绑定正确交换机；临时关闭防火墙测试 |
-| Ubuntu 报错 `INCOMPLETE` | 内部交换机驱动卡死 | 重建交换机或直接改用 `Default Switch` |
+| 现象                             | 原因                | 解决                                                |
+| :----------------------------- | :---------------- | :------------------------------------------------ |
+| 创建外部交换机后宿主机断网                  | 驱动未加载 / IP 冲突     | `Disable-NetAdapter "vEthernet (xxx)"` 后 `Enable` |
+| VM ping 不通宿主机                  | 宿主机虚拟网卡无 IP       | `ipconfig` 确认 `vEthernet` 有 `192.168.x.1`         |
+| 能 ping IP 但无法上网                | NAT 规则缺失 / DNS 错误 | `Get-NetNat` 查规则；VM 内配 DNS `8.8.8.8`              |
+| `Destination Host Unreachable` | ARP 解析失败 / 链路不通   | 确认 VM 绑定正确交换机；临时关闭防火墙测试                           |
+| Ubuntu 报错 `INCOMPLETE`         | 内部交换机驱动卡死         | 重建交换机或直接改用 `Default Switch`                       |
 
 ---
 
